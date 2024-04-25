@@ -31,45 +31,55 @@
             bindings = <&kp ESC>;
         };
 
-        left_bkt {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <4 5>;
+        del {
+            bindings = <&kp DELETE>;
+            key-positions = <10 11>;
             timeout-ms = <50>;
         };
 
-        right_bkt {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <6 7>;
+        bk {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <8 9>;
             timeout-ms = <50>;
         };
 
-        left_par {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <16 17>;
+        caps {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <20 21>;
             timeout-ms = <50>;
         };
 
-        right_par {
-            bindings = <&kp RIGHT_PARENTHESIS>;
+        enter {
+            bindings = <&kp ENTER>;
             key-positions = <18 19>;
             timeout-ms = <50>;
         };
 
-        bac {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <5 6>;
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <29 28>;
             timeout-ms = <50>;
         };
 
-        pipe {
-            bindings = <&kp PIPE>;
-            key-positions = <17 18>;
+        home {
+            bindings = <&kp HOME>;
+            key-positions = <2 3>;
             timeout-ms = <50>;
         };
 
-        TO4 {
-            bindings = <&to 4>;
-            key-positions = <3 4>;
+        end {
+            bindings = <&kp END>;
+            key-positions = <12 13>;
+        };
+
+        pu {
+            bindings = <&kp PAGE_UP>;
+            key-positions = <6 7>;
+        };
+
+        pd {
+            bindings = <&kp PAGE_DOWN>;
+            key-positions = <16 17>;
         };
     };
 
