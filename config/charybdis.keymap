@@ -130,7 +130,7 @@
             >;
         };
 
-        Gunlun {
+        Lower {
             label = "Lower";
             bindings = <
 &kp LS(N1)     &kp LS(N2)     &kp LS(N3)       &kp LS(N4)  &kp LS(N5)  &kp LS(N6)    &kp LS(N7)    &kp LS(N8)     &kp LS(N9)    &kp LS(N0)
@@ -140,7 +140,7 @@
             >;
         };
 
-        Jingzhun {
+        Raise {
             label = "Raise";
             bindings = <
 &as EXCLAMATION NUMBER_1  &as AT_SIGN NUMBER_2  &as HASH NUMBER_3  &as DOLLAR NUMBER_4  &as PERCENT N5   &as CARET NUMBER_6         &as AMPERSAND N7             &as ASTERISK N8                &as LEFT_PARENTHESIS N9  &as RIGHT_PARENTHESIS N0
