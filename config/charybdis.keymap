@@ -153,10 +153,10 @@
         Raise {
             label = "Raise";
             bindings = <
-&as EXCLAMATION NUMBER_1  &as AT_SIGN NUMBER_2  &as HASH NUMBER_3  &as DOLLAR NUMBER_4  &as PERCENT N5   &as CARET NUMBER_6         &as AMPERSAND N7             &as ASTERISK N8                &as LEFT_PARENTHESIS N9  &as RIGHT_PARENTHESIS N0
-&as UNDERSCORE MINUS      &as PLUS EQUAL        &kp F2             &kp F5               &trans           &as PIPE NON_US_BACKSLASH  &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &as COLON SEMICOLON      &as DOUBLE_QUOTES SQT
-&as TILDE GRAVE           &kp C_MUTE            &KEY               &kp C_VOL_DN         &kp C_VOLUME_UP  &trans                     &trans                       &as LESS_THAN COMMA            &as GREATER_THAN PERIOD  &as QUESTION SLASH
-&trans                    &kp LEFT_SHIFT        &kp DELETE         &trans               &trans                                                                   &kp SPACE                      &kp BACKSPACE            &trans
+&kp N1     &kp N2          &kp N3      &kp N4        &kp N5           &kp N6    &kp N7    &kp N8         &kp N9     &kp N0
+&kp MINUS  &kp EQUAL       &kp F2      &kp F5        &trans           &kp BSLH  &kp LBKT  &kp RBKT       &kp SEMI   &kp APOS
+&kp GRAVE  &kp C_MUTE      &KEY        &kp C_VOL_DN  &kp C_VOLUME_UP  &trans    &trans    &none          &none      &none
+&trans     &kp LEFT_SHIFT  &kp DELETE  &trans        &trans                               &kp BACKSPACE  &kp SPACE  &trans
             >;
         };
 
